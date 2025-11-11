@@ -32,14 +32,25 @@ li {
 a {
     text-decoration: none;
     display: block;
-    background: linear-gradient(45deg, #ff4b2b, #ff416c);
-    color: white;
-    padding: 40px 0;         /* super tall */
+    padding: 40px 0;          /* tall buttons */
     border-radius: 25px;
-    font-size: 2.5em;        /* giant text */
+    font-size: 2.5em;
     font-weight: bold;
     transition: transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Individual button colors */
+#robot-game-link {
+    background: linear-gradient(45deg, #00c6ff, #0072ff); /* blue */
+}
+
+#clicker-game-link {
+    background: linear-gradient(45deg, #ffb347, #ffcc33); /* yellow/orange */
+}
+
+#spend-game-link {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c); /* pink/red */
 }
 
 a:hover {
@@ -51,3 +62,4 @@ a:hover {
     margin-top: 50px;
     font-size: 1.8em;
 }
+
