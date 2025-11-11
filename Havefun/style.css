@@ -1,22 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
     padding: 40px;
-    background: #f0f0f0;
+    background: #1e1e1e;
+    color: #fff;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 5em;
     margin-bottom: 0.5em;
+    color: #FFD700;
+    text-shadow: 2px 2px #000;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-bottom: 30px;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 li {
@@ -25,22 +31,23 @@ li {
 
 a {
     text-decoration: none;
-    background: #4CAF50;
+    display: block;
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
     color: white;
-    padding: 30px 60px;    /* bigger buttons */
-    border-radius: 15px;
-    display: inline-block;
-    font-size: 2em;         /* bigger text */
-    transition: transform 0.1s, background 0.2s;
+    padding: 40px 0;         /* super tall */
+    border-radius: 25px;
+    font-size: 2.5em;        /* giant text */
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 a:hover {
-    background: #45a049;
     transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
 #game-container {
-    margin-top: 40px;
-    font-size: 1.5em;
+    margin-top: 50px;
+    font-size: 1.8em;
 }
-
